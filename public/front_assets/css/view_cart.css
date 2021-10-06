@@ -1,0 +1,12 @@
+.span_space{
+
+    margin-left: 50px;
+}
+select#sel1 {
+    margin-left: 15px;
+    padding: 8px;
+    padding-right: 23px;
+}
+img.card-img {
+    width: 175px;
+}

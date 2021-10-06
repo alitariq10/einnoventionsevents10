@@ -1,0 +1,169 @@
+@media (max-width: 768px) {
+    #sidebar.collapse {
+      position: fixed;
+      z-index: 2000;
+      transition: all .3s ease;
+      top: 0;
+      bottom: 0;
+      right: -30%; /* -width of sidebar */
+      width: 0;
+      height: 100% !important;
+      display: block;
+    }
+    
+    #sidebar.collapsing {
+        transition: all .18s ease-in;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: -30%;  /* -width of sidebar */
+        width: 30%;  /* width of sidebar */
+        height: 100% !important;
+        display: block;
+    }
+    
+    #sidebar.collapse.show {
+        right: 0;
+        width: 30%;  /* width of sidebar */
+    }
+ }
+
+ ul.navbar-nav.mr-auto.p-2.col.align-self-center.justify-content-center {
+    background-color: #e52529;
+}
+nav#menu{
+	background-color: #e52529 !important;
+}
+div#sidebar {
+    background: #e52529 !important;
+}
+#container-fluid{
+	background: #e52529 !important;
+}
+
+a.link-dark {
+    color: black;
+}
+hr.style12 {
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-12.png) repeat-x 0 0;
+    border: 0;
+}
+a#card_btn{
+		color: white;
+	    background-color: #e52529;	
+		/* border: 1px solid #f08221; */
+		font-size: 16px !important;
+		border-radius: 0px !important;
+	}
+a#card_btn:hover{
+	    color: white;
+	    background-color: orange;	
+		/* border: 1px solid #f08221; */
+		font-size: 16px !important;
+		border-radius: 0px !important;
+}	
+.topnav {
+	overflow: hidden;
+	background-color: #f4f4f4;
+  }
+  #side_bar_head{
+
+	background-color: indigo;
+	color: white;
+  }
+  .topnav a {
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  .topnav a:hover {
+	text-decoration: underline;  
+	background-color: #f4f4f4;
+	color:#3399cc;
+  }
+  
+  .topnav a.active {
+	background-color: #04AA6D;
+	color: white;
+  }
+  
+  .topnav .icon {
+	display: none;
+  }
+  
+  @media screen and (max-width: 100px) {
+	.topnav a:not(:first-child) {display: none;}
+	.topnav a.icon {
+	  float: right;
+	  display: block;
+	}
+  }
+  
+  @media screen and (max-width: 100px) {
+	.topnav.responsive {position: relative;}
+	.topnav.responsive .icon {
+	  position: absolute;
+	  right: 0;
+	  top: 0;
+	}
+	.topnav.responsive a {
+	  float: none;
+	  display: block;
+	  text-align: left;
+	}
+  }
+  /***** #side_images  *****/
+#side_images .space{
+ 
+	margin: 10px;
+}
+  /***** Side bar content*****/
+  .head {
+    margin: 6px;
+}
+ul li {
+	display: inline-block;
+  }
+  /* arrow common style */
+  .arrow {
+	display: inline-block;
+	width: 7px;
+	height: 7px;
+	border-top: 1px solid #000;
+	border-right: 1px solid #000;
+	margin-right: 5px;
+  }
+  .arrow-right {
+	transform: rotate(45deg);
+  }
+  a.side_a{
+	  color: indigo;
+  }
+
+  dl dt{
+	  margin-left: -15px;
+	  margin-right: -15px;
+	  padding: 7px;
+	  background-color: #cccccc;
+	  align-items: center;
+  }	
+  
+  @media screen and (max-width: 800px) {
+	  #topnav{
+		  display: none;
+	  }
+	  
+	}
+
+	@media screen and (max-width: 800px) {
+		#bottom_bar_id{
+			display: none;
+		}
+		
+	  }

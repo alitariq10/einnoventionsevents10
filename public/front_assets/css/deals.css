@@ -1,0 +1,80 @@
+.container-fluid.deal{
+
+    margin-top: -38px;
+}
+#dealdescription {
+    margin-top: -11px;
+    margin-right: 45px;
+    background-color: #f4f4f5;
+    margin-left: -73px;
+    border-radius: 7px;
+}
+ul.rating {
+    padding-left: 0px;
+    display: inline-block;
+}
+div#dealdetails {
+    margin-top: 19px;
+    background: #f6d69d;
+    padding-left: 7px;
+    margin-left: 8%;
+    margin-right: 8%;
+    border-radius: 10px;
+}
+button#card-id {
+    color: white;
+    padding: 15px;
+    background: #00ba00;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 27px;
+    margin-bottom: 22px;
+}
+i.fas.fa-shopping-cart {
+    color: white;
+}
+h5#deal-head{
+    margin-top: 40px;
+}
+.set{
+    margin-top: 11px;
+    margin-left: 54px;
+}
+div#set {
+    margin-left: 48px;
+    margin-top: -11px;
+}
+div#garantee {
+    margin-left: 33px;
+}
+div#delivery {
+    margin-right: 7px;
+}
+.productimg_ori.float-right.border {
+    margin-bottom: 18px;
+    margin-right: 66px;
+    padding: 1px;
+    font-weight: 600;
+    border-radius: 4px;
+}
+button.MuiButton.border {
+    margin-left: 65px;
+}
+.text-center.dealhead{
+    font-size: 71px;
+    margin-bottom: -40px;
+    }
+    .text-center.deal2head{
+        font-size: 71px;
+        margin-bottom: -77px;
+        margin-top: -85px;
+        }
+        .text-center.secondhead {
+            font-size: 51px;
+            margin-top: 48px !important;
+        }
+
+        .carousel-item img {
+            height: 400px;
+            width: 80%;
+        }
